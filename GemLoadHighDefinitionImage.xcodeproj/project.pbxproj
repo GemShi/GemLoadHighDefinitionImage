@@ -15,6 +15,9 @@
 		DF03ACA61E727FE600453775 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF03ACA41E727FE600453775 /* LaunchScreen.storyboard */; };
 		DF03ACB11E727FE600453775 /* GemLoadHighDefinitionImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03ACB01E727FE600453775 /* GemLoadHighDefinitionImageTests.m */; };
 		DF03ACBC1E727FE700453775 /* GemLoadHighDefinitionImageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF03ACBB1E727FE700453775 /* GemLoadHighDefinitionImageUITests.m */; };
+		DF03ACCA1E72825B00453775 /* kobe.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DF03ACC91E72825B00453775 /* kobe.jpeg */; };
+		DFFA05D91E7285E500DE1994 /* ImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DFFA05D71E7285E500DE1994 /* ImageCell.m */; };
+		DFFA05DA1E7285E500DE1994 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DFFA05D81E7285E500DE1994 /* ImageCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,10 @@
 		DF03ACB71E727FE600453775 /* GemLoadHighDefinitionImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GemLoadHighDefinitionImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF03ACBB1E727FE700453775 /* GemLoadHighDefinitionImageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GemLoadHighDefinitionImageUITests.m; sourceTree = "<group>"; };
 		DF03ACBD1E727FE700453775 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF03ACC91E72825B00453775 /* kobe.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = kobe.jpeg; sourceTree = "<group>"; };
+		DFFA05D61E7285E500DE1994 /* ImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageCell.h; sourceTree = "<group>"; };
+		DFFA05D71E7285E500DE1994 /* ImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageCell.m; sourceTree = "<group>"; };
+		DFFA05D81E7285E500DE1994 /* ImageCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +112,10 @@
 				DF03AC9A1E727FE600453775 /* AppDelegate.m */,
 				DF03AC9C1E727FE600453775 /* ViewController.h */,
 				DF03AC9D1E727FE600453775 /* ViewController.m */,
+				DFFA05D61E7285E500DE1994 /* ImageCell.h */,
+				DFFA05D71E7285E500DE1994 /* ImageCell.m */,
+				DFFA05D81E7285E500DE1994 /* ImageCell.xib */,
+				DF03ACC91E72825B00453775 /* kobe.jpeg */,
 				DF03AC9F1E727FE600453775 /* Main.storyboard */,
 				DF03ACA21E727FE600453775 /* Assets.xcassets */,
 				DF03ACA41E727FE600453775 /* LaunchScreen.storyboard */,
@@ -248,6 +259,8 @@
 			files = (
 				DF03ACA61E727FE600453775 /* LaunchScreen.storyboard in Resources */,
 				DF03ACA31E727FE600453775 /* Assets.xcassets in Resources */,
+				DF03ACCA1E72825B00453775 /* kobe.jpeg in Resources */,
+				DFFA05DA1E7285E500DE1994 /* ImageCell.xib in Resources */,
 				DF03ACA11E727FE600453775 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +287,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF03AC9E1E727FE600453775 /* ViewController.m in Sources */,
+				DFFA05D91E7285E500DE1994 /* ImageCell.m in Sources */,
 				DF03AC9B1E727FE600453775 /* AppDelegate.m in Sources */,
 				DF03AC981E727FE600453775 /* main.m in Sources */,
 			);
@@ -507,6 +521,7 @@
 				DF03ACC21E727FE700453775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF03ACC31E727FE700453775 /* Build configuration list for PBXNativeTarget "GemLoadHighDefinitionImageTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +530,7 @@
 				DF03ACC51E727FE700453775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF03ACC61E727FE700453775 /* Build configuration list for PBXNativeTarget "GemLoadHighDefinitionImageUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +539,7 @@
 				DF03ACC81E727FE700453775 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
